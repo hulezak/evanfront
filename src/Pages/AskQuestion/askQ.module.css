@@ -1,0 +1,78 @@
+.question_tips{
+    margin-top: 30px;
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid red; */
+    width: 30%;
+    
+   
+}
+
+.question_tips h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+.question_tips ul {
+    padding: 0 20px;
+}
+.question_tips ul li{
+   
+    font-size: 17px;
+    margin-bottom: 10px;
+
+}
+
+
+.lower_tips{
+    margin-top: 30px;
+    text-align: center;
+    /* border: 2px solid red; */
+    padding: 20px;
+
+}
+
+.lower_tips p {
+    font-size: 18px;
+}
+.lower_tips h2  {
+ margin-bottom: 10px;
+font-size: 35px;
+    
+}
+
+.form{
+    padding: 20px;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    /* border: 2px solid yellow; */
+}
+
+.Qtitle{
+   width: 100%;
+    height: 50px;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.Qdetail{
+    width: 100%;
+    height: 150px;
+    display: block; 
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.form button {
+    margin-top: 10px;
+    background-color: #506af3;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: rgb(242, 238, 238);
+}

@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.total_container{
+    background-image: url(../assets//bg.jpg);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+.form_container{
+    /* background-color: aqua; */
+   
+    display: flex;
+    justify-content: space-evenly;
+    /* background: rgba(0, 0, 0, 0.9); */
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    /* border: 2px solid red; */
+    
+}
+.form_box{
+
+    /* background-color: red; */
+    height: 530px;
+    width: 600px;
+    margin-top: 60px;
+    border: 2px solid rgb(56, 54, 54);
+    padding: 40px;
+    /* align-items: center; */
+    z-index: 1000;
+    background:#fff;
+}
+
+
+.form_box h2{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.form_box p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.terms_use_container{
+    margin-top: 40px;
+    display: grid;
+}
+
+.form_box .long_input input{
+    width: 100%;
+    height: 44px;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+
+.short_inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom:16px ;
+   
+}
+
+.short_inputs input{
+    width: 48%;
+    height: 44px;
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.form_box button {
+    background-color: #506af3;
+    width: 100%;
+    height: 44px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: rgb(242, 238, 238);
+}
+
+.terms_use_container{
+    margin-top: 20px;
+    align-items: center;
+}
+
+.child_terms  {
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+.form_box a {
+    color:#fe8402;
+}
+
+
+
+.about {
+   position: relative;
+    margin-top: 130px;
+    /* border: 2px solid rgb(25, 23, 23); */
+    padding: 20px;
+    z-index: 1000;
+    width: 40%;
+    
+}
+
+
+.about h2{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.about p {
+    margin: 20px;
+    font-size: 2.3vh;
+}
+
+.about .a {
+    color:#fe8402;
+}
+
+.about button{
+    background-color: #fe8402;
+    width: 50%;
+    height: 44px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: rgb(242, 238, 238);
+    margin: 10px auto;
+}
+
+
+.form_box_login {
+    height:450px ;
+}
+.registerLink{
+    
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30%;
+   
+    /* background-color: red;
+     */
+     align-items: center;
+
+}

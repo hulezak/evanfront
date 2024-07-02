@@ -1,0 +1,101 @@
+
+/* body shaping */
+.dquestion{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.inner_header{
+/* background-color: red; */
+/* text-align: center; */
+padding: 20px;
+
+}
+
+.inner_header h2 {
+    /* font-size: 30px; */
+    margin-bottom: 10px;
+}
+.inner_header h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.answertitle{
+border-top: 1px solid rgb(74, 73, 73);
+padding: 24px;
+/* margin-bottom: 20px; */
+}
+
+
+.answer_form{
+    /* border: 10px solid green; */
+    text-align: center;
+    
+}
+
+.answer_form h2{
+    margin: 30px;
+}
+
+.answer_form textarea{
+    margin: 20px 0 10px 0;
+    width: 80%;
+    height: 20vh;
+}
+
+
+.answer_form button {
+    background-color: #506af3;
+    width: 25vh;
+    height: 44px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: rgb(242, 238, 238);
+    display: block;
+    margin-left: 130px;
+}
+
+
+
+
+
+
+
+.eachquestion{
+    border-top: 1px solid rgb(49, 44, 44);
+    display: flex;
+    /* background-color: aqua; */
+    height: 10vh;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    /* padding: 20px; */
+}
+
+.profile{
+    float: left;
+    /* background-color: green; */
+    width: 30%;
+    height: 13vh;
+}
+
+.profile img{
+    object-fit: contain;
+    height: 100%;
+}
+
+.all_question p {
+    align-self: center;
+    font-size: 20px;
+}
+.question_title{
+    width: 60%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    
+}
+

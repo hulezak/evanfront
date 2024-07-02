@@ -1,0 +1,31 @@
+.footer{
+    margin-top: 60px;
+background-color: #3b455a;   
+ width: 100%;
+color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+height: 216px;
+padding: 30px 130px;
+}
+
+
+.footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: #b2b2b2;
+}
+
+.footer >div{
+    /* background-color: red; */
+    width: 30%;
+    padding: 20px;
+   
+}
+
+.footer h3 {
+    font-size:20px;
+    /* font-weight: 500; */
+    margin-bottom: 20px;
+}

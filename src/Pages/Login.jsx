@@ -38,7 +38,7 @@ console.log(data)
 localStorage.setItem('token',data.token)
 
 alert('login successful')
-navigate('/')
+navigate('/home')
 } 
 catch(error){
 alert(error?.response?.data?.msg)

@@ -42,7 +42,7 @@ function AskQ() {
       );
       // alert("question post sucessful");
 
-      navigate("/");
+      navigate("/home");
       setIsLoading(true)
     } catch (error) {
       alert(error?.response?.data?.msg);

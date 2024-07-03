@@ -4,12 +4,12 @@ import { Route, Routes, useNavigate } from "react-router-dom";
 import axios from "./axiosConfig";
 import Askquestion from "./Pages/AskQuestion/AskQ";
 import QuestionDetail from "./Pages/questiondetail/QuestionDetail";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+// import { ToastContainer, toast } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
 import Header from './components/Header/Header'
 import Footer from "./components/footer/Footer"
-
-
+import Login from './Pages/Login'
+import Register from './Pages/Register'
 export const AppState = createContext();
 
 function App() {
@@ -39,12 +39,13 @@ function App() {
 
   return (
     <AppState.Provider value={{ user, setUser }}>
-      <ToastContainer />
+      
        <Header/>
         <Routes>
           
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />        
+          <Route path="/register" element={<Register/>} />        
           <Route path="/askquestion" element={<Askquestion />} />
           <Route
             path="/answerquestions/:questionid"

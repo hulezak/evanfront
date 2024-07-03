@@ -14,7 +14,7 @@ const Home = () => {
 
   useEffect(() => {
     if (!token || !user) {
-      toast("Please Login");
+      alert("Please Login");
       navigate("/");
       return;
     }

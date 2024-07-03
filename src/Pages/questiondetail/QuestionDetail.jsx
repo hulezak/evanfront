@@ -3,7 +3,7 @@ import axios from "../../axiosConfig";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import userImg from "../../assets/avatar.png";
 import Loader from "../../components/Loader/Loader";
-import { toast } from "react-toastify";
+// import { toast } from "react-toastify";
 import classes from './Qdetail.module.css';
 import { MdKeyboardArrowRight } from "react-icons/md";
 
@@ -68,7 +68,7 @@ const QuestionDetail = () => {
         },
         config
       );
-      toast.success("Answer posted successfully");
+      alert(success("Answer posted successfully"));
       window.location.reload();
     } catch (error) {
       toast.error(error?.response?.data?.msg || "Something went wrong");

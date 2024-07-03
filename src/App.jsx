@@ -29,7 +29,7 @@ function App() {
     } catch (error) {
       console.log(error.message);
       setUser(error.response.data);
-      navigate("/");
+      navigate("/login");
     }
   }
 
@@ -46,6 +46,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />        
           <Route path="/register" element={<Register/>} />        
+          <Route path="/login" element={<Login/>} />        
           <Route path="/askquestion" element={<Askquestion />} />
           <Route
             path="/answerquestions/:questionid"

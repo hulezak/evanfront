@@ -43,7 +43,7 @@ function App() {
        <Header/>
         <Routes>
           
-          <Route path="/" element={<Login />} />
+          <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />        
           <Route path="/register" element={<Register/>} />        
           <Route path="/askquestion" element={<Askquestion />} />

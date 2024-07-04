@@ -3,7 +3,7 @@ import axios from "../../axiosConfig";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import userImg from "../../assets/avatar.png";
 import Loader from "../../components/Loader/Loader";
-// import { toast } from "react-toastify";
+import { toast } from "react-toastify";
 import classes from './Qdetail.module.css';
 import { MdKeyboardArrowRight } from "react-icons/md";
 

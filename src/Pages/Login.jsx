@@ -33,7 +33,7 @@ const {data} = await axios.post('/users/login',{
     password:passwordValue
 })
 
-console.log(data)
+
 
 localStorage.setItem('token',data.token)
 

@@ -39,7 +39,7 @@ localStorage.setItem('token',data.token)
 
 alert('login successful')
 navigate('/home')
-// window.location.reload();
+window.location.reload();
 } 
 catch(error){
 alert(error?.response?.data?.msg)

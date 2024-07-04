@@ -28,7 +28,7 @@ function App() {
     } catch (error) {
       console.log(error.message);
       setUser(error.response.data);
-      navigate("/login");
+      navigate("/");
     }
   }
 
@@ -42,11 +42,9 @@ function App() {
        <Header/>
        <ToastContainer/>
         <Routes>
-        
           <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />        
-          <Route path="/register" element={<Register/>} />        
-          <Route path="/login" element={<Login/>} />        
+          <Route path="/register" element={<Register/>} />              
           <Route path="/askquestion" element={<Askquestion />} />
           <Route
             path="/answerquestions/:questionid"

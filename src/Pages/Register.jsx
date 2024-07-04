@@ -43,7 +43,7 @@ await axios.post('/users/register',{
 })
 
 alert('registered successful please log in')
-navigate('/login')
+navigate('/')
 } 
 catch(error){
 alert('something went wrong')
@@ -66,7 +66,7 @@ console.log(error)
 
 <h2>Join the network</h2>
 <p>Already have an account  
-    <Link to='/login'> Sign in ?</Link>
+    <Link to='/'> Sign in ?</Link>
 </p>
     <div className={classes.long_input} >
        
@@ -101,7 +101,7 @@ console.log(error)
         I agree to the <a href=""  >privacy policy</a>  and  <a href="">terms of service</a> </div>
  
      
-      <Link className={classes.child_terms} to={'/login'}>Already have an account ?</Link> 
+      <Link className={classes.child_terms} to={'/'}>Already have an account ?</Link> 
     
    </div>
 

@@ -3,7 +3,6 @@ import classes from './login.module.css'
 
 import {useNavigate,Link} from 'react-router-dom'
 import axios from '../axiosConfig'
-import Header from '../components/Header/Header'
 function Register() {
   const navigate = useNavigate()
 

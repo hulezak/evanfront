@@ -5,15 +5,12 @@ import classes from './login.module.css'
 
 const Login = () => {
   const navigate = useNavigate()
-
-
   const userNameDom = useRef('')
   const firstnameDom = useRef('')
   const lastnameDom = useRef('')
   const emailDom = useRef('')
   const passwordDom = useRef('')
   
-
   async function handleSubmit(e){
     e.preventDefault()
   const emailValue = emailDom.current.value
@@ -40,7 +37,7 @@ localStorage.setItem('token',data.token)
 alert('login successful')
 
 navigate('/home')
-window.location.reload();
+// window.location.reload();
 } 
 catch(error){
 alert(error?.response?.data?.msg)

@@ -38,9 +38,9 @@ const {data} = await axios.post('/users/login',{
 localStorage.setItem('token',data.token)
 
 alert('login successful')
-window.location.reload();
-navigate('/home')
 
+navigate('/home')
+window.location.reload();
 } 
 catch(error){
 alert(error?.response?.data?.msg)

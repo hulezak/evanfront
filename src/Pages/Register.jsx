@@ -46,7 +46,7 @@ navigate('/')
 } 
 catch(error){
 alert('something went wrong')
-console.log(error)
+console.log(error.message)
 }
 
 }

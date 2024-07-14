@@ -47,7 +47,7 @@ function Header() {
               <li>How It Works</li>
             </Link>
             <li>
-              {user.msg === "Authentication invalid-1" || user.msg === "Authentication invalid-2" ? (
+              {user.msg === "invalid"? (
                 <button className={classes.log_button}>Log In</button>
               ) : (
                 <button className={classes.log_button} onClick={logout}>Log Out</button>
